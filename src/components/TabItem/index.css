@@ -1,0 +1,27 @@
+.tab-item-card {
+  list-style-type: none;
+  margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .tab-item-card {
+    margin-right: 20px;
+  }
+}
+.tab-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  color: #7b8794;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .tab-btn {
+    font-size: 18px;
+  }
+}
+.active-tab-btn {
+  border-bottom: 2px solid #2563eb;
+  color: #2563eb;
+}

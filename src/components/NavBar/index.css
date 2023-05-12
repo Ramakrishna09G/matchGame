@@ -1,0 +1,29 @@
+.score-and-timer-card {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+.nav-item {
+  list-style-type: none;
+}
+.score-str {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-right: 12px;
+}
+.score-int {
+  color: #fec653;
+}
+.timer {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  color: #fec653;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.timer-png {
+  width: 24px;
+  margin-right: 5px;
+}
